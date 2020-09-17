@@ -1,0 +1,59 @@
+/* Порядок создания анимации можно разделить на два этапа:
+
+Создание необходимого количества ключевых кадров через правило @keyframes.
+Запись стилей для каждого кадра.
+Подключение анимации к одному либо нескольким элементам. */
+
+/* @keyframes animationName {
+    from {
+        Список CSS-свойств
+    }
+    to {
+        Список CSS-свойств
+    }
+} */
+
+/* @keyframes changeBackgroundColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: green;
+    }
+} */
+
+@keyframes changeBackgroundColor {
+    from {
+        background-color: red;
+           }
+    50% {
+        background-color: yellow;        
+    }
+    to {
+        background-color: green;
+        /* transform: translate(0, 250px); */
+    }
+}
+
+
+@keyframes move {
+    from {
+        /* transform: translate(0, 100px); */
+    }
+    50% {
+        transform: translate(0, 250px);
+    }
+    to {
+        transform: translate(0, 500px);
+    }
+}
+/* Запуск анимации: аnimation-name и animation-duration */
+
+.traffic-light {
+    animation-name: changeBackgroundColor, move;
+    animation-duration: 5s;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+}

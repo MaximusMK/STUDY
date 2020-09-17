@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: rgb(229, 247, 229); 
+    padding: 0;      
+    margin: 0;
+}
+
+/* width + padding-left + border-left + margin-left +
+ padding-right + border-right + margin-right = полная ширина блока */
+
+ /* краткая запись 
+ сверху, справа, снизу, слева
+ для margin можно использовать отрицательные значения*/ 
+
+ /* margin при двух элементах схлопывается - из двух
+ примыкающих полей элементов выбирается наибольший по размеру 
+ работает только для верхних и нижних полей*/
+
+ /* Размер margin для дочерних элементов определяется еще более интересно:
+ если у потомка поле margin больше, чем у родителя, то приоритет отдается ему.
+ В этом случае размеры верхнего и нижнего полей родителя станут такими,
+ как задано у потомка. При этом расстояния между родителем и потомком не будет. */
+
+ div {
+     /* margin: 5px 10px 50px 10px;
+     padding: 50px 30px 50px 30px; */
+
+     /* margin: 5px;      */
+ }
+
+ /* блочные div p ul ol h1 и т.д.
+ строчные a span strong em img и т.д.
+ Блочные элементы в строчные вкладывать нельзя. */
+
+ /* display: inline; - блочный как строчный */
+ .test {
+    /* display: inline; */
+}
+ /* display: block; - строчный элемент как block-элемент */
+ a {
+     /* display: block; */
+ }
+ /* display: inline-block; - блочный элемент с поведением, как у строчного. */
+ .test1 {
+    /* display: inline-block;
+    width: 200px; */
+}
+
+/* Свойство border: границы для блоков */
+
+/* .border-test {
+    width: 200px;
+    height: 200px;
+
+    border: dotted;
+    border: double;
+    border: groove;
+    border: solid;
+
+    border-width: 5px;
+    border-color: green;
+
+    border: 20px dotted #0c3194;
+    border-top: solid #c91e1e;
+    border-bottom: 5px double #3be012;    
+} */
+/* мини-задание */
+/* .mini-test {
+    width: 200px;
+    height: 200px;
+    border: solid 5px #8628b1;    
+    border-left: 3px dashed #07bd4d;
+    border-right: 7px double #d48113;
+} */
+
+/* Border-radius: закругленные углы в CSS */
+
+.borderElement {
+    /* width: 200px;
+    height: 200px; */
+    /* background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    border-radius: 25px; */
+
+    /* background-color: #FFE8DB;
+    border: 6px solid #FF5A00;
+    border-radius: 0 100px 0 100px; */
+
+    /* width: 450px;
+    height: 150px;
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    border-radius: 450px/150px; */
+  }
+  /* Box-shadow: тень для элемента */
+
+  /* .shadow {
+    width: 200px;
+    height: 200px;
+    border: solid 5px #8628b1;
+    box-shadow: inset 4px 4px 8px 3px #3a0353;
+  } */
+
+  /* Width и height: определяем размеры элемента 
+  Width и height не включают в себя значения margin, padding и border */
+
+  /* .width-height {
+      width: 200px;
+      height: 200px;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-left: 10px;
+      border-left: 3px solid #333;  
+  } */
+  /* width + margin-left + margin-right + padding-left + border-left = 
+  200px + 15px + 15px + 10px + 3px = 243px (фактическая ширина) */
+
+  /* height: auto - высота объекта будет рассчитываться автоматически,
+   в зависимости от содержимого, которое он содержит. */
+
+   /* overflow: auto - если высота содержимого будет превышать значение height своего контейнера,
+    браузер добавит к контейнеру полосу прокрутки. */
+
+    /* .width-height {
+        width: 200px;
+        height: 100px;
+        overflow: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        border: 3px solid #333;  
+    } */
+
+    /* Box-sizing: управляем вычислением ширины и высоты */
+
+    /* content-box — значение по умолчанию (поведение, описанное выше).
+     Ширина и высота элемента определяется только свойствами width и height */
+
+     /* border-box — в данном случае браузер включает отступы padding
+      и рамку border в общую ширину/высоту элемента. */
+
+      /* padding-box — это значение похоже на предыдущее, только в ширину/высоту элемента
+       будут включены только отступы padding, без рамки. 
+       Значения margin также не учитываются. Значение padding-box
+        было исключено из спецификации CSS,
+       однако оно все еще поддерживается браузером Firefox. */
+
+    /* Overflow: управление переполненными элементами */
+
+    /* .width-height {
+        width: 200px;
+        height: 100px;
+        overflow: hidden;
+        overflow: scroll;
+        overflow: auto;
+    } */
+
+    /* .hidden-img {     
+        width: 300px;
+        height: 300px;   
+        overflow: hidden;     
+    } */
+
+/* Max-width, max-height, min-width, min-height: максимальные и минимальные размеры элемента */
+
+/* .width-height {
+	width: 100%;
+	min-width: 100px;
+	max-width: 600px;
+} */
+
+/* Поток документа. Свойства float и clear */
+
+/* Элемент, к которому применено свойство float, прижимается к левому или к правому краю
+родительского элемента (в зависимости от заданного значения), а все элементы,
+которые расположены ниже, поднимаются и словно обтекают данный элемент.
+Применять данное свойство можно как к строчным, так и к блочным элементам. */
+
+/* Отмена обтекания: свойство clear */
+
+.main, .sidebar {
+    padding: 1%;
+    /* margin-bottom: 5px; */
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+.main {
+    width: 70%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: khaki;
+    float: right;
+}
+
+img {
+    float: right;
+    padding: 0;
+    padding-left: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-top: 40px;
+    width: 100%;
+    height: 80px;
+    background-color: seagreen;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px seagreen;
+}
+

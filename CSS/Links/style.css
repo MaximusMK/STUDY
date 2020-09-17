@@ -1,0 +1,129 @@
+/* Состояния ссылок в CSS. Псевдоклассы */
+
+/* Четыре состояния, которые могут принимать ссылки:
+
+:hover — ссылка, на которую наведен курсор;
+:active — активная ссылка (та, по которой совершается клик, или на которой удерживается кнопка мыши);
+:link — ссылка, еще не посещенная пользователем;
+:visited — посещенная ссылка. */
+
+* {
+    background-color: rgb(192, 236, 238);
+}
+/* a {
+    text-decoration: none;
+} */
+
+/* a:link { color: red; }
+a:visited { color: rgb(12, 26, 223); }
+a:hover { color: rgb(96, 174, 226); }
+a:active { background-color: yellow; } */
+
+/* a:hover {
+    color: rgb(96, 174, 226);
+    text-decoration: underline;
+    font-weight: bold;
+ } */
+
+ /* a {
+    text-decoration: none;                       
+    border-bottom: 3px solid pink;
+    padding-bottom: 1px;
+} */
+
+/* не разобрался ((( */
+/* a[target="_blank"] {
+    background-image: url(instagram.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 13px;
+} */
+
+/* ////////////Навигационные панели с помощью CSS */
+
+/* вертикальное меню */
+/* .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    border-bottom: 1px solid blue;
+}
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: chartreuse;
+    border-top: 1px solid blue;
+    height: 30px;
+    line-height: 30px;
+} */
+/* горизонтальное меню 1 способ */
+
+/* .menu li {
+    display: inline;
+    margin-right: -5px;
+  }
+
+  a {  
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #5757a0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    border-bottom: 5px solid #5757a0;
+} */
+
+/* горизонтальное меню 2 способ */
+
+/* .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li {
+    float: left;
+  }
+
+  a {  
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #5757a0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    border-bottom: 5px solid #5757a0;
+} */
+
+/* /////////////// Стили для особых ссылок */
+
+/* a[href^="mailto:"] {  }
+a[href^="tel:"] { ... }
+a[href^="https://www.facebook.com"] { ... }
+a[href$=".zip"] { ... } */
+
+/* CSS-спрайты */
+
+a {
+    background-image: url(http://www.idg.net.ua/blog/wp-content/uploads/sprites2.png);
+    background-repeat: no-repeat;
+    height: 98px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 25px;
+  }
+    a.facebook {background-position: left top; }
+    a.twitter { background-position: -100px top; }
+    a.youtube { background-position: -200px top; }
+    a.instagram { background-position: -300px top; }
+    a.linkedin { background-position: -400px top; }
+    a.tumblr { background-position: -500px top; }
+    a.google { background-position: -600px top; }
+
+    a:hover {
+        background-position-y: bottom;
+    }
+  
+    a { transition: all 0.5s ease-out; }

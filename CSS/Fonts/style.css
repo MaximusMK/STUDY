@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: rgb(229, 247, 229) ;
+    /* background-color: olive; */
+    /* background-color: #020f0c; */    
+}
+
+p {
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'PT Sans', sans-serif;    
+
+    color: #047c6a;
+
+    font-size: 24px;
+    font-size: 100%;
+    font-size: 1.2em;
+    font-size: 10rem;
+    font-size: x-large;
+
+    font-weight: bold;
+    font-weight: lighter;
+
+    font-style: italic;
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    /* text-decoration: line-through; */
+    /* text-decoration: underline;   */
+
+    text-shadow: 1px 1px 0px rgb(18, 145, 14);
+    /* text-shadow: 1px 2px 1px rgb(16, 226, 121), -1px -2px 1px #290ec2; */
+
+    letter-spacing: -1px;
+    letter-spacing: .1em;
+
+    word-spacing: 5px;
+    word-spacing: .2em;
+
+    line-height: 60px;
+    line-height: 1.3em;
+
+    text-align: center;
+    text-align: left;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: square;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: none;
+
+    list-style-image: url(1.jpg);
+    list-style-position: inside;
+    list-style: circle inside;
+}

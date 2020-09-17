@@ -1,0 +1,30 @@
+/* transition-property */
+/* transition-duration */
+/* transition-timing-function */
+/* transition-delay */
+
+a {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9b20ff;
+    color: #fafafa;
+    transition-property: color, background-color;
+    transition-duration: .5s; /* добавляем длительность перехода */
+    transition-timing-function: steps(10, end);
+    transition-delay: 1s, 1s, 1s;
+}
+a:hover {
+    color: #9b20ff;
+    background-color: #c9ff20;
+    letter-spacing: 2px;
+    transform: scale(1.5);
+}
+
+/* Сокращенная запись transition 
+Порядок записи следующий: необходимо указать значения свойств transition-property, transition-duration, transition-timing-function и transition-delay, отделяя их пробелами*/
+
+
+

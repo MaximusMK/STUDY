@@ -1,0 +1,272 @@
+
+
+body {
+    background-color:rgb(225, 243, 220);    
+}
+/* .polaroid {
+    position: relative;
+}
+.polaroid img {
+    border: 25px solid #fafafa;
+    border-top-width: 35px;
+    border-bottom-width: 100px;
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+} */
+
+/* body { */
+    /* background-image: url(https://cdn1.img.ukraina.ru/images/102447/11/1024471197.jpg);
+    background-image: url(img/1-600x400.jpg); */
+    /* background-image: url(1-600x400.jpg); */
+    /* background-image: url(../../CSS3/1-.jpg); */
+/* } */
+/* div { */
+    /* width: 100%; */
+    /* height: 1000px; */
+    /* background-image: url(img/1-600x400.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: round; */
+    /* background-repeat: space; */
+/* } */
+/* .position { */
+    /* border: solid 3px red; */
+    /* width: 1800px; */
+    /* height: 1000px; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+    /* background-image: url(img/1-600x400.jpg); */
+    /* background-image: url(img/1.jpg); */
+    /* background-position: center; */
+    /* background-position-y: center; */
+    /* background-position: bottom left; */
+    /* background-position: center right; */
+    /* background-position: 30px 25px; */
+    /* background-position: -30px -250px; */
+    /* background-position: right 15px bottom 40px; */
+    /* background-position: 0% 0%; */
+    /* background-position: 30% 10%; */
+    /* background-position: 30px 50%; */
+/* } */
+/* Как правило, при печати страницы фоновые изображения не отображаются.
+Учитывайте это при работе с важной графикой — например,
+логотип компании, карту проезда и другие иллюстрации,
+содержащие важную информацию, рекомендуется добавлять через тег <img>. */
+
+/* body {
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+/* } */
+/* div {
+    color: white;
+    font-size: 24px;
+    width: 150px;
+} */
+/* /////////////////// Свойства CSS3 Background-origin: позиционирование фонового рисунка */
+
+/* div {
+    background-image: url(../1-.jpg);
+    background-repeat: no-repeat;
+    color: rgb(245, 239, 233);
+    font-size: large;
+    font-weight: bold;
+    padding: 30px;
+    width: 300px;
+    height: 400px;    
+    border: 40px;
+    border-color: #63994e;
+    border-style: dashed;    
+} */
+
+/* .bg-origin { */
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+
+    /* background-clip: content-box; */
+    /* background-origin: content-box; */
+/* } */
+
+/* ////////////////// Background-size: масштабирование фонового рисунка */
+
+/* .bg-size { */
+    /* width: 300px;
+    height: 400px;    
+    border: solid 1px red;
+    background-image: url(1-600x400.jpg);
+    background-repeat: no-repeat; */
+
+    /* background-size: 250px auto; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+    /* background-position: center;
+    background-size: 290px 390px; */
+
+    /* background-position: center;
+    background-size: auto 390px; */
+/* } */
+
+/* ////////////////// Свойство background: все настройки фона в одном месте */
+
+/* .bg { 
+    width: 300px;
+    height: 400px;    
+    border: solid 1px red;    
+    background: url(1-600x400.jpg) top/ auto 90% repeat-y #d49a1c;
+} */
+
+/* ////////////////// Несколько фоновых рисунков для одного элемента */
+
+/* .frame {
+    background-image: url(img/top-bg.png), 
+                      url(img/bottom-bg.png),
+                      url(img/center-bg.png);
+  
+    background-position: center top, 
+                         center bottom, 
+                         center top;
+  
+    background-repeat: no-repeat, 
+                       no-repeat,
+                       repeat-y;
+  
+    background-size: contain; 
+    height: auto; 
+    width: 400px; 
+    padding: 30px; 
+
+    background: url(img/top-bg.png) center top / contain no-repeat, 
+	         url(img/bottom-bg.png) center bottom / contain no-repeat,
+             url(img/center-bg.png) center top / contain repeat-y; 
+             
+    background-size: contain; 
+    height: auto; 
+    width: 400px; 
+    padding: 30px;
+  } */
+
+
+  /* Linear-gradient(): линейный градиент в фоне */
+
+  /* .gradient { */
+    /* padding: 30px; */
+    /* width: 400px; */
+    /* height: 400px;  */
+    
+    /* background-image: linear-gradient(to left,#555,#ddd); */
+    /* background-image: linear-gradient(to bottom,rgb(21, 255, 0),rgb(0, 110, 255)); */
+    /* background-image: linear-gradient(to bottom right, #ee82ee, #ff0000); */
+    /* background-image: linear-gradient(30deg,rgb(21, 255, 0),rgb(0, 110, 255)); */
+
+    /* background-image: linear-gradient(180deg, #ff0000, orange, yellow, #00ff00, #00ebfc, #0000ff, violet); */
+    /* background-image: linear-gradient(180deg,#00ff00 20%, #ff0000 , #0000ff ); */
+  /* } */
+
+  /* ///////////////////// Repeating-linear-gradient(): градиент с повторением */
+
+  /* .gradient {
+      color: rgb(31, 65, 158); */
+    /* padding: 30px; */
+    /* width: 500px; */
+    /* height: 500px;  */
+    /* background-image: repeating-linear-gradient(
+        to top right, #034320 60px, #24d24a 120px, #012c13 121px); */
+
+        /* background-image: repeating-linear-gradient(
+        to top left, #5c0755 60px, #e207ff 100px, #ba31be 141px); */
+
+        /* background-image: repeating-linear-gradient(45deg,
+        #fdf6e6 0, #fdf6e6 10px,
+        #cfdbc7 10px, #cfdbc7 20px,
+        #dfa798 20px, #dfa798 30px,
+        #fbc9b2 30px, #fbc9b2 40px); */
+
+        /* background-image: repeating-linear-gradient(0deg,
+        #000000 0, #ffffff 30px,
+        #ffffff 30px, #868686 60px); */
+
+        /* background-image: repeating-linear-gradient(0deg,
+        #e7f0ed 0px, #e7f0ed 15px,
+        #d8bbb5 15px, #d8bbb5 25px,
+        #d1afa6 25px, #d1afa6 35px,
+        #f1b6a8 35px, #f1b6a8 45px,
+        #ffefd7 45px, #ffefd7 55px),
+    repeating-linear-gradient(90deg,
+        #e7f0ed 0px, #e7f0ed 15px,
+        #d8bbb5 15px, #d8bbb5 25px,
+        #d1afa6 25px, #d1afa6 35px,
+        #f1b6a8 35px, #f1b6a8 45px,
+        #ffefd7 45px, #ffefd7 55px);
+    background-blend-mode: multiply; */
+
+    /* background-image: url(img/Crimea.jpg),
+    linear-gradient(30deg, #e8fff0, #81cfff);
+    background-blend-mode: hard-light;
+    width: 600px;      
+    height: 400px;
+    } */
+
+  /* .gradient {
+    padding: 30px;
+    width: 400px;
+    height: 400px; 
+    background-image: repeating-linear-gradient(60deg,
+                          #e7f0ed 0px, #e7f0ed 15px,
+                          #d8bbb5 15px, #d8bbb5 25px,
+                          #d1afa6 25px, #d1afa6 35px,
+                          #f1b6a8 35px, #f1b6a8 45px,
+                          #ffefd7 45px, #ffefd7 55px),
+                      repeating-linear-gradient(-60deg,
+                          #e7f0ed 0px, #e7f0ed 15px,
+                          #d8bbb5 15px, #d8bbb5 25px,
+                          #d1afa6 25px, #d1afa6 35px,
+                          #f1b6a8 35px, #f1b6a8 45px,
+                          #ffefd7 45px, #ffefd7 55px);
+                      background-blend-mode: multiply;
+  } */
+
+  /* ///////////////// Radial-gradient(): радиальный градиент */
+
+  /* .radialGradient {
+      padding: 20px;
+      width: 500px;
+      height: 500px; */
+
+      /* background-image: radial-gradient(#e9f5eb, #8bf1a5); */
+      /* background-image: radial-gradient(at top left, #e9f5eb,#8bf1a5); */
+      /* background-image: radial-gradient(ellipse 300px 100px, #051235, #8bf1a5); */
+      /* background-image: radial-gradient(circle closest-side at 10% 50%,#051235, #8bf1a5); */
+      /* background-image: radial-gradient(circle closest-corner at 75% 40%, #051235, #8bf1a5); */
+      /* background-image: radial-gradient(#557efa 20%, #1dbd40 40%, #e07e0d); */
+      /* background-image: radial-gradient(#144bf1 30%, #3ee9ca 80%, #0a38e5); */
+      /* } */
+
+      /* ////////////////// Repeating-radial-gradient(): повторяющийся радиальный градиент */
+
+      .radialGradient {
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+
+        /* background-image: repeating-radial-gradient(#faa2b1 20px, #f05afd 40px); */
+        /* background-image: repeating-radial-gradient(circle,
+                      #67df8b 20px, #37c7c0 40px, #67df8b 60px); */
+
+        /* background-image: repeating-radial-gradient(circle,
+        #3d77a6, #74accf, #c6f1f1,
+        #ffffff, #3d77a6 6px);
+        background-size: 90px 90px; */
+
+        /* background: repeating-radial-gradient(circle at 200px 100px,
+        #fff, #fff 25px, #f0f6fb 25px, #f0f6fb 50px),
+        url(https://goo.gl/Aw4YRB) no-repeat 50% 50%;
+background-blend-mode: saturation; */
+      }
