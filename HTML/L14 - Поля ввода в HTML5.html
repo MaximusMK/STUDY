@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L14 - Поля ввода в HTML5</title>
+</head>
+<body>
+
+ <!-- Для создания формы -->
+
+ <form name="test" action="" method="">
+    <!-- action - где будут обрабатываться данные
+    method - способ отправки сообщения -->
+
+    <!-- input - поле ввода -->
+     <input type="text"/>
+     <input value="Поиск..."/>
+     <input placeholder="Поиск..." name="name" title="Подсказка" maxlength="50"/>
+ </form>
+
+ <form>
+    <label for="name">Введите Ваше имя:</label><input id="name" placeholder="Имя на английском..."/>
+ </form>
+ <br/>
+ <br/>
+ <br/>
+ <form>
+ <label for="date">День рождения</label><input type="date" name="date" id="date"/>
+</form>
+ <br/>
+ <br/>
+ <br/>
+ <form>
+    <label for="date">URL</label> <input type="url" name="url"/>
+ </form>
+ <br/>
+ <br/>
+ <br/>
+ <form>
+    <label for="level">Громкость</label> <input type="range" name="level"/>
+ </form>
+<br/>
+<br/>
+<br/>
+<form>
+    <label for="male">Мужской</label> <input type="radio" name="male"/>
+    <label for="male">Женский</label> <input type="radio" name="male"/>
+ </form> 
+ <br/>
+ <br/>
+ <br/>
+ <form>
+    <label>При вводе кружочками</label> <input type="password"/>
+    <label>Только цифры</label> <input type="number"/>
+    <label>Выбрать файл</label> <input type="file"/>
+    <label>Выбрать цвет</label> <input type="color"/>
+    <label>Выбрать вариант ответа</label> <input type="checkbox"/>
+ </form>
+<form>
+ <input type="button" value="Отправить button"/> 
+ <!-- не происходит перезагрузка страницы -->
+ <input type="submit" value="Отправить submit"/>
+ <!-- происходит перезагрузка страницы --> 
+ <input type="reset" value="Очистить"/> 
+ <!-- очищает введенные данные в полях -->
+</form>
+<br/>
+<br/>
+<form>
+    <input type="text"/>
+    <input type="text"/>
+    <input type="reset" value="Очистить"/>
+</form>
+   
+</body>
+</html>

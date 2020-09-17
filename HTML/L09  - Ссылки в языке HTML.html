@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L9 - Ссылки в языке HTML</title>
+</head>
+<body>
+
+<!-- Два вида ссылок:
+1) на другую страницу или другой сайт
+2) на другой элемент или блок на данной странице
+3) отправка почты -->
+<!-- 1) -->
+<a href="http://google.com">Главная</a>
+<a href="http://google.com" target="_blank">Ссылка откроется в новой вкладке</a>
+<!-- target="self" - по умолчанию загружает в этом окне, не использовать -->
+
+<!-- title можно применять ко всем тегам -->
+
+<!-- 2) -->
+<a href="#example"> Переход на заголовок 6</a>
+<h1>Заголовок 1</h1>
+ <h2>Заголовок 2</h2>
+<a name="example"></a>
+<h6>Заголовок 6</h6>
+
+<!-- можно перегрузить на др страницу сразу на указанное место 
+комбинация двух вариантов -->
+
+<a href="http://index.html#example">Главная</a>
+
+<!-- 3) -->
+<a href="mailto:adress@mail.ru">Email</a>
+</body>
+</html>

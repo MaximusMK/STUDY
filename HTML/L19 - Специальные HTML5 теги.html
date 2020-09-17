@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L19 - Специальные HTML5 теги</title>
+</head>
+<body>
+
+<details>
+    <summary>Информация об авторе</summary>
+    <p>Александр Сергеевич Пушкин</p>
+</details>
+
+<p>Проверка 123<mark>выделено</mark> проверка прошла</p>
+
+
+<ruby>
+    <p>АБВГД<rt>Прописная</rt></p> 
+    <p>абвгд<rt>Строчная</rt></p>
+</ruby>
+
+<br/>
+<br/>
+<br/>
+<progress max="100" value="33">
+   Загружено на</p><span id="value">25</span>%
+</progress>
+
+<form oninput="result.value=(cm.value/2.54).toFixed(2)">
+    <p>Перевод длины из сантиметров  в дюймы</p>
+    <p>Длина в см:<input type="number" name="cm" autofocus></p>
+    <p>Длина в дюймах:<output name="result">0</output></p>
+</form>
+    
+</body>
+</html>
