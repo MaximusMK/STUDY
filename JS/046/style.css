@@ -1,0 +1,10 @@
+
+body {
+    background-color: aqua;
+}
+
+button {
+    background-color: rgb(143, 255, 148);
+    width: 90px;
+    height: 40px;
+}
