@@ -1,0 +1,22 @@
+Команды GIT.
+
+git init
+git config --local user.name "maximusmk"
+git config --local user.email intmaxmk@gamil.com
+git status
+git add -A
+git commit -a -m"29/08" // в кавычках коментарий
+git log
+    // добавить на GitHub
+git remote add origin https://github.com/MaximusMK/notesJS.git
+git push -u origin master
+
+Git Kraken //для просмотра коммитов
+
+Команды CMD
+
+CD.. // перефти в корень диска
+D:  // перейти на указаный диск
+CD \имя Папки\имя папки // перейти в папку
+Mkdir имя папки // создать пустую папку
+copy con имя файла.расширение два раза Enter // создать пустой файл
