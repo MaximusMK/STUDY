@@ -1,0 +1,85 @@
+/* rotate */
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.rot {
+    background-color: green;
+    transform: rotate(-45deg);
+    
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    transform: rotate(-45deg);
+}
+
+/* scale() */
+
+/* button { */ 
+    /* transform: scale(0); */
+    /* transform: scale(2); */
+    /* transform: scale(1, 2); */
+    /* transform: scale(-1, 2); */
+   /* }
+
+/* skew() */
+
+.skewTest {
+    margin: 100px;
+    width: 100px;
+    height: 40px;
+    background-color: burlywood;
+
+    transform: skewX(30deg);
+    transform: skewY(45deg);
+
+/* translate */
+    transform: translate(-20px, -60px);
+}
+
+/* Несколько значений свойства transform */
+
+.fewTransform {
+    box-sizing: border-box;
+    font-size: small;
+    margin: 200px;
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    text-align: center;
+    padding: 5px;   
+
+    transform: rotate(45deg) scale(2) skew(10deg, 10deg) translate(50px, -50px) rotate(-90deg);
+}
+
+/* 3D-трансформации в CSS */
+
+.card, .card div {
+    position: absolute;
+    width: 548px;
+    height: 767px;
+    border-radius: 25px;
+    transform: perspective(2000px)
+               rotateY(135deg); /*меняйте угол, чтобы увидеть эффект*/
+  }
+  .card div {
+    box-shadow: 0px 0px 10px #8d9096;
+  }
+  .card div:nth-child(1) {
+    background-image: url('back.jpg');    
+  }
+   
+  .card div:nth-child(2) {
+    background-image: url('front.png');
+    background-color: #fff;
+    backface-visibility: hidden;
+  }
