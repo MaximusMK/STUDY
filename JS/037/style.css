@@ -1,0 +1,33 @@
+.blue {
+
+    width: 100px;
+    /* height: 40px; */
+    background-color: blue;
+}
+
+.red {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+}
+
+.green {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+}
+.div {
+    color: rgb(71, 85, 71);
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 3px solid red;
+  }
+button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #f1f200;
+    border: none;
+}
