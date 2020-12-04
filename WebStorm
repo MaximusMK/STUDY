@@ -1,2 +1,5 @@
 https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf
 https://blog.listratenkov.com/webstorm-ide-hot-keys/ (RU)
+
+ctrl + D    скопировать строку на которой установлен курсор
+ctrl + Y    удалить строку на которой установлен курсор
