@@ -11,3 +11,6 @@ ctrl + alt + L    форматировать выделенный код
 REFACTORING
 
 shift + F6        переименовать
+
+
+double shift      открыть файл по имени
