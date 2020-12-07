@@ -13,6 +13,7 @@ L07
 const App =() => {return (<div>Loren<div>);}
 Компонетку вызывать нельзя, ее взывает React.
 Вставляем компоненту вместо вызова. Например: <App />
+Компоненту именовать с большой буквы
 
 L08
 React использует модульный подход
@@ -20,4 +21,23 @@ import someFunction from './index.js'; // расширение не указыв
 import Reacr from 'react'; // импорт модулей
 export defaulte someFunction;
 
-L09
+L10
+При экспотре по дефолту возможна ошибка при именовании импорта
+
+L11
+Задние стилей пример
+<div className='style'></div>
+
+L12
+Компоненты распологать по папкам.
+темы дизайна соц сетей
+https://themeforest.net/search/social%20network
+
+L13
+Git
+при инсталяции пакетов приписывать --save для того чтобы добавить этот пакет в package.json
+
+L14
+Стили называть например: style.module.css
+
+
