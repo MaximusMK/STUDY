@@ -1,7 +1,9 @@
 create-react-app my app - my app -название проекта
-npm start для - старта нужен package.json
+npm start для - старта и работы нужен package.json
 
 L05
 SPA - single page application
 
 L06
+в тегах вместо clsss - className
+должен быть только один корневой узловой тег
