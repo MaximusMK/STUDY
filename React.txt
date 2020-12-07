@@ -1,8 +1,8 @@
 Конспект чей-то https://www.instagram.com/front.ru/
 
-create-react-app my app - my app -название проекта
+create-react-app my app - my app - название проекта
 npm start для - старта и работы нужен package.json
-
+Node.js нужен для использования модулей
 
 L05
 SPA - single page application
@@ -54,7 +54,27 @@ L15
 Компоненты распологать по папкам.
 
 L16
-props
+props это параметры функции
+props в компоненту приходит всегда
+
+Пример задания props с помощью атрибута:
+
+const MyPosts = () => {
+  return (
+    <Post name='Dima' age='30' />
+  )
+};
+
+Пример использования props:
+
+const Posts = () => {
+  return (
+     {props.name} {props.age}
+  )
+};
+
+L17
+
 
 
 
