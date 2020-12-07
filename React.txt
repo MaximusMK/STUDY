@@ -13,3 +13,11 @@ L07
 const App =() => {return (<div>Loren<div>);}
 Компонетку вызывать нельзя, ее взывает React.
 Вставляем компоненту вместо вызова. Например: <App />
+
+L08
+React использует модульный подход
+import someFunction from './index.js'; // расширение не указывать
+import Reacr from 'react'; // импорт модулей
+export defaulte someFunction;
+
+L09
