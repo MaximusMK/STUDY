@@ -43,11 +43,15 @@ L14
 CSS.Modules
 Modules добавляет преффиксы и постфиксы в название className для обеспечения уникальности имени.  Это делает Reacr. Эти названия лежат в объекте classes. Classel можно назвать полюбому.
 Не использовать пробелы в названиях className
-Стили называть например: style.module.css
-Пример импорта стилей: import someStyle from './someStyle.css'; // расширение указывать
-Пример записи: <nav className={classes.nav}>
-импорт: import classes from './SomeStyl.module.css';
-в свойствах нельзя использовать дефиз в названиях стилей НЕПРАВИЛЬНО {s.nav-bar}
+Стили называть например:
+style.module.css
+Пример импорта стилей:
+import someStyle './someStyle.css'; // расширение указывать
+Пример записи:
+<nav className={classes.nav}>
+импорт:
+import classes from './SomeStyle.module.css';
+в свойствах нельзя использовать дефиз в названиях стилей НЕПРАВИЛЬНО {s.item}
 Пример несколько стилей одновременно {`${s.item} ${s.active}`}
 
 L15
