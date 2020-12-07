@@ -1,5 +1,8 @@
+Конспект чей-то https://www.instagram.com/front.ru/
+
 create-react-app my app - my app -название проекта
 npm start для - старта и работы нужен package.json
+
 
 L05
 SPA - single page application
