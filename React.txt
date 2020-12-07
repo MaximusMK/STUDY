@@ -1,3 +1,7 @@
 create-react-app my app - my app -название проекта
 npm start для - старта нужен package.json
 
+L05
+SPA - single page application
+
+L06
